@@ -13,3 +13,15 @@ Make the following 10 toppings available to the system.
     Pepperoni, Mushrooms, Onions, Sausage, Bacon
     Extra cheese, Black olives, Green peppers, Pineapple, Spinach
 A customer can add upto 3 different or same toppings to the order. Examples of a combination of toppings are (Pepperoni), (Pepperoni and Onions), (Pepperoni, Onions and Green peppers), and (Pineapple, Pineapple, Sausage). The Topping class defines an instance variable price for this Topping instance along with some reasonable price. 
+
+
+
+The presentation layer can be console-based (without using GUI). The presentation layer prompts a menu for a customer to choose one of the following 7 functions:
+To sign in
+To log in
+To make a regular order
+To make a discounted order
+To view all orders
+To change an order
+To cancel an order
+The service later defines 6 methods for the required functions (e.g. makeOrder).
