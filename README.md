@@ -6,10 +6,10 @@ In order to make/change/cancel an order, the customer has to login in with the u
 
 The customer can view all the orders under the user name.
 
-Use Java Enum type to represent PaymentType and PizzaSize. There are three different payment methods accepted by the system: CASH, VISA and MASTER. Three different pizza sizes available for a customer can choose from: SMALL, MEDIUM, and LARGE. In the enum type PizzaSize, define a price of each size as an instance variable and also define the corresponding accessor and mutator. For instance, set a price in a way that a SMALL pizza costs $3, a MEDIUM pizza costs $5 and a LARGE pizza costs $7.
+Used Java Enum type to represent PaymentType and PizzaSize. There are three different payment methods accepted by the system: CASH, VISA and MASTER. Three different pizza sizes available for a customer can choose from: SMALL, MEDIUM, and LARGE. In the enum type PizzaSize, define a price of each size as an instance variable and also define the corresponding accessor and mutator. For instance, set a price in a way that a SMALL pizza costs $3, a MEDIUM pizza costs $5 and a LARGE pizza costs $7.
 
 Make the following 10 toppings available to the system.
 
     Pepperoni, Mushrooms, Onions, Sausage, Bacon
     Extra cheese, Black olives, Green peppers, Pineapple, Spinach
-A customer can add upto 3 different or same toppings to the order. Examples of a combination of toppings are (Pepperoni), (Pepperoni and Onions), (Pepperoni, Onions and Green peppers), and (Pineapple, Pineapple, Sausage). The Topping class defines an 
+A customer can add upto 3 different or same toppings to the order. Examples of a combination of toppings are (Pepperoni), (Pepperoni and Onions), (Pepperoni, Onions and Green peppers), and (Pineapple, Pineapple, Sausage). The Topping class defines an instance variable price for this Topping instance along with some reasonable price. 
